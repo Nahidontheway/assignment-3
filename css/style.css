@@ -1,0 +1,9 @@
+.carousel .item {
+    height: 550px;
+  }
+  
+  .item img {
+      min-height: 550px;
+      object-fit: cover;
+      filter: brightness(40%);
+  }
