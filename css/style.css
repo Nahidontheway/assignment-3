@@ -7,3 +7,12 @@
       object-fit: cover;
       filter: brightness(40%);
   }
+  @media only screen and (max-width: 576px) {
+    .items{
+        flex-direction: column;
+      }
+      .items img{
+        margin-bottom: 10px;
+        width: 100%;
+      }
+  }
