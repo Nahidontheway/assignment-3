@@ -16,10 +16,10 @@
     <!-- header section start -->
     <header>
         <!-- navigation section start -->
-        <nav class="navbar navbar-expand-lg bg-light mb-5">
+        <nav class="navbar navbar-expand-lg bg-light mb-5 fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="order-md-1 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
               <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -44,7 +44,7 @@
                   </li>
                 </ul>
               </div>
-              <form class="d-flex d-none d-sm-block" role="search">
+              <form class="order-md-0 d-flex d-none d-sm-block" role="search">
                 <button class="btn btn-outline-info text-info" type="submit">Register</button>
               </form>
             </div>
@@ -52,7 +52,7 @@
         <!-- navigation section end -->
         
         <!-- carousel section started -->
-        <div id="carouselExampleCaptions" class="carousel slide container mb-5" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide container mt-5 mb-5" data-bs-ride="false">
             <div class="carousel-inner rounded-3">
               <div class="carousel-item item active">
                 <div class="overlay">
@@ -108,7 +108,7 @@
     
     <!-- main section started  -->
     <main>
-        <section class="container">
+        <section class="container mb-5">
             <div class="text-center mb-5">
                 <h1>Discover Our Popular Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -158,6 +158,9 @@
                       </div>
                     </div>
                   </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="mb-5 bg-info text-white px-4 py-2 border-0 rounded-2 fw-bold">See More Courses</button>
             </div>
         </section>
 
@@ -226,6 +229,9 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="mb-5 mt-5 bg-info text-white px-4 py-2 border-0 rounded-2 fw-bold">View All</button>
           </div>
         </section>
         <!-- Successful student end -->
